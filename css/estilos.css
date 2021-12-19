@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../img/A01.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: rgb(40, 40, 40);
+}
+
+.destacar{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.resaltar{
+    font-size: 25px;
+    font-family: impact;
+    font-weight: 300;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(80, 170, 80, 0.719);
+    margin: auto;
+}
+
+.biografia{
+    width: 400px;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 0 50%;
+    margin: 25px auto 0 auto;
+}
+
+.sobre-mi{
+    border: 1px black solid;
+    border-radius: 10px;
+
+}
+/*Parte de los trabajos hechos en clase*/
+.trabajos-web{
+    background-color: rgba(0, 0, 0, 0.60);
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 30px;
+
+}
+
+.proyectos-clase{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;    
+
+}
+
+.class-work{
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+}
+
+.enlace-img{
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgba(23, 182, 2, 0.6);
+    padding: 3px 10px;
+    border-radius: 25px;
+    color: white;
+    
+}
+
+.formulario-contacto{
+    background-color: rgba(196, 196, 196, 0.6);
+}
+
+
+/*parte de los proyectos*/
+.as-left{
+    background-color:rgba(224, 151, 130, 0.7);
+    position: relative;
+    display: inline-block; 
+    
+}
+
+.contener-img{
+    position: relative;
+    display: inline-block;  
+}
+
+.texto-encima{
+    position: absolute;
+    left: 30%;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.60);
+    padding: 0 10px;
+    border-radius: 25px;
+    color: white;
+}
+.img-principal{
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.if-footer{
+    width: 100%;
+    height: 170px;
+}
+
+.if-navegacion{
+    width: 100%;
+    height: 80px; 
+
+}
+
+
+/*Botoneras     */
+
+.botonera{
+    margin: 25px;
+}
+
+.btn-primary {
+    color: rgba(0, 0, 0, 0.9) !important;
+    width: 200px;
+    font-size: 20px;
+    padding: 0.5em 1.2em;
+    background: rgba(172, 255, 47, 0.288);
+    text-shadow: 2px 2px 6px #fff;
+    border: 2px solid;
+    border-color: greenyellow;
+    border-radius: 6px;
+    position: relative;
+
+}
+.btn-primary:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 16px 32px rgb(224, 127, 46);
+    border-radius: 6px;
+    background-color: rgba(48, 48, 245, 0.61);
+
+    transition: all 0.2s ease;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    width: 150px;
+    font-size: 20px;
+    padding: 0.5em 1.2em;
+    background: gray;
+    position: relative;
+    border: 2px solid #318aac;
+    outline: 1px solid;
+    outline-color: rgba(49, 138, 172, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-secondary:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    background-color: red;
+}
+
+/*Imagenes de los proyectos */
+
+article img{
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: -5px 3px black;
+    margin-left: 40px;
+}
+
+article img:hover{
+    height: 200px;
+    width: 200px;
+}
+
+.as-left a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

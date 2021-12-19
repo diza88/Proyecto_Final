@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-15deg);
+}
+
+.container-md{
+    background-color: rgba(172, 234, 255, 0.4);
+    
+}
+
+.obligatorio{
+    background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.tramite{
+    background-color: honeydew;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.com-individual{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.lugar-constitucion{
+    background-color: honeydew;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.registro-publico{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.periodo-especial{
+    background-color: honeydew;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.enlace-fusion{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.obligaciones-tributarias{
+    background-color: honeydew;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.cierre{
+    background-color: antiquewhite;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.botonera{
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(146, 146, 146);
+    height: 50px;
+    color: white;
+}
+
+
+ul {
+    column-count: 2;
+    column-gap: 60px;
+    list-style: none;
+
+}
+.cabeceras{
+    text-align: left;
+    font-style: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(44, 44, 44);
+}
+
+.form-label{
+    text-align: center;
+    color: black;
+}
+
+.form-check-label{
+    display: block;
+    position: relative;
+    margin: 10px;
+    padding-left: 5px;
+}
+
+.form-check-label{
+    color: rgb(54, 54, 54);
+}
+
+
+
+.btn-primary {
+    color: rgba(0, 0, 0, 0.9) !important;
+    width: 200px;
+    font-size: 20px;
+    padding: 0.5em 1.2em;
+    background: transparent;
+    border: 2px solid;
+    border-color: #48c4f5;
+    border-radius: 6px;
+    position: relative;
+}
+.btn-primary:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 16px 32px rgb(224, 127, 46);
+    border-radius: 6px;
+    background-color: rgba(48, 48, 245, 0.61);
+
+    transition: all 0.2s ease;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    width: 150px;
+    font-size: 20px;
+    padding: 0.5em 1.2em;
+    background: gray;
+    position: relative;
+    border: 2px solid #318aac;
+    outline: 1px solid;
+    outline-color: rgba(49, 138, 172, 0.4);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-secondary:hover {
+    box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    background-color: red;
+}
+
+
+
+hr{
+    color: lig;
+}
+
+

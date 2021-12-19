@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(212, 212, 212, 0.8);
+}
+
+.centro{
+    height: 170px;
+}
+
+.proyectos{
+    display: block;
+}
+
+a{
+    color: black;
+}
+
+.centro a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.centro a:hover{
+    width: 200px;
+    background-color: rgba(6, 170, 14, 0.6) !important;
+    padding: 8px;
+    color: white;
+    font-weight: 400;
+}
+
+.as-left a{
+    display: block;
+}
+
+h5{
+    padding: 5px;
+}
+
+

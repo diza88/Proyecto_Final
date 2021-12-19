@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.producto{
+    background-color: #198754;
+    color: white;
+}
+
+.img-s{
+    height: 200px;
+    padding: 10px 10px;
+}
+
+
+.aside-rigth{
+    background-color: green;
+    float: left;
+    width: 50%;
+}
+
+.aside-left{
+    background-color: orange;
+    float: right;
+    width: 50%;
+}
+
+.mb-4{
+    color: white;
+
+}
+
+.my-4{
+    border-style: dashed !important;
+}
+
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

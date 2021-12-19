@@ -1,0 +1,79 @@
+body{
+    /*background-image: url('/img/img_06.jpg');
+    background-size: cover;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    
+}
+
+nav a {
+    margin: 0px;
+    padding: 0px 012px;
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    margin: 0%;
+    padding: 3px 12px;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select
+{
+    width: 76%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button[type="submit"]{
+    width: 76%;
+    background-color: aqua;
+    color: blue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button[type="submit"]:hover{
+    background-color: #4caf50;
+    ;
+}
+
+.contenedor-formulario{
+    background-color: #f2f2f2;
+    padding: 20px; 
+    
+}
+
+aside#right{
+    padding: 0%;
+    margin: 0;
+    float:right;
+    width: 24%;
+    height: 100vh;
+    background-color:rgb(224, 151, 130);
+}

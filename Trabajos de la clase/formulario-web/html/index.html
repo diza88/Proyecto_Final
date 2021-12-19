@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+    <title>Formulario Web</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+
+
+</head>
+<body>
+    <header class="header row g-3">
+        <div class="Logo col-md-2 text-center my-auto">
+            <img src="../img/logo-sar-blanco.webp" alt="logo sar">
+        </div>
+        <div class="Tit-form text-center text-uppercase my-5 col-md-8">
+            <h1 class="fs-4">
+                Declaracion jurada de inscripciones, inicio de actividades
+                y actualizacion al registro tributario nacional
+            </h1>
+        </div>
+        <div class="col-md-2 text-center text-uppercase my-auto">
+            <h3 class="num-for fs-5">
+                sar-410
+            </h3>
+        </div>
+    </header>
+    <div class="container-md">
+
+        <form class="obligatorio row g-3">
+            <label class="cabeceras">Identificación del Obligado Tributario</label>
+            <div class="col-md-8">
+                <label for="primerApellido" class="form-label">5.- Primer Apellido</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="ej. Diaz" required>
+            </div>
+            <div class="col-md-4">
+                <label for="primerApellido" class="form-label">1.- Declarión N°</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="410" required>
+            </div>
+            <div class="col-md-8">
+                <label for="segundoApellido" class="form-label">6.- Segundo Apellido</label>
+                <input type="text" class="form-control" id="segundoApellido" value="" placeholder="ej. Alcedo" required>
+            </div>
+            <div class="col-md-4">
+                <label for="primerApellido" class="form-label">2.- RTN Anterior</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="xxxx-xxxx" required>
+            </div>
+            <div class="col-md-8">
+                <label for="primerNombre" class="form-label">7.- Primer Nombre</label>
+                <input type="text" class="form-control" id="primerNombre" value="" placeholder="ej. Bruno" required>
+            </div>
+            <div class="col-md-4">
+                <label for="primerApellido" class="form-label">3.- RTN</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="xxxx-xxxx" required>
+            </div>
+            <div class="col-md-8">
+                <label for="segundoNombre" class="form-label">8.- Segundo Nombre</label>
+                <input type="text" class="form-control" id="segundoNombre" value="" placeholder="ej. Charles" required>
+            </div>
+            <div class="col-md-4">
+                <label for="primerApellido" class="form-label">4.- Tamaño</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="" required>
+            </div>
+            <div class="col-md-12">
+                <label for="razonSocial" class="form-label">9.- Razón o Denominación Social</label>
+                <input type="text" class="form-control" id="razonSocial" value="" placeholder="ej. Compañia ABC S. de R.L." required>
+            </div>
+
+            <hr size=5>
+
+            <div class="col-md-3">
+                <label for="barrioColonia" class="form-label">10.- Barrio, Colonia, Aldea</label>
+                <input type="text" class="form-control" id="barrioColonia" value="" placeholder="ej. Barrio El Centro" required>
+            </div>
+            <div class="col-md-2">
+                <label for="calleAvenida" class="form-label">11.- Calle, Avenida</label>
+                <input type="text" class="form-control" id="calleAvenida" value="" placeholder="ej. Ave.-Asturias" required>
+            </div>
+            <div class="col-md-2">
+                <label for="bloque" class="form-label">12.- Bloque</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. Bl-J o Bl-14" required>
+            </div>
+            <div class="col-md-3">
+                <label for="bloque" class="form-label">13.- Sector, Zona</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. S-La Leona o Z-8" required>
+            </div>
+            <div class="col-md-2">
+                <label for="bloque" class="form-label">14.- N° Casa o Apart</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. N°-1428" required>
+            </div>
+            
+            <div class="col-md-3">
+                <label for="barrioColonia" class="form-label">15.- Telefono Fijo</label>
+                <input type="text" class="form-control" id="barrioColonia" value="" placeholder="ej. XXXX-XXXX" required>
+            </div>
+            <div class="col-md-2">
+                <label for="calleAvenida" class="form-label">16.- Telefono Celular</label>
+                <input type="text" class="form-control" id="calleAvenida" value="" placeholder="ej. XXXX-XXXX" required>
+            </div>
+            <div class="col-md-2">
+                <label for="bloque" class="form-label">17.- Cod Postal</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. 11101" required>
+            </div>
+            <div class="col-md-5">
+                <label for="bloque" class="form-label">18.- Departamento</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. Francisco Morazan" required>
+            </div>
+
+            <hr size=5>
+
+            <div class="col-md-7">
+                <label for="bloque" class="form-label">19.- Correo electronico</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. pagatusimpuestos@gmail.com" required>
+            </div>
+            <div class="col-md-5">
+                <label for="bloque" class="form-label">20.- Municipio</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. Distrito Central" required>
+            </div>
+            <div class="col-md-12">
+                <label for="bloque" class="form-label">21.- Referencia del Domicilio</label>
+                <input type="text" class="form-control" id="bloque" value="" placeholder="ej. Col. Las Minitas, Calle San Pedro, Casa N° 135" required>
+            </div>
+        </form>
+
+        
+      
+        <form class="tramite row g-3">
+            <label class="cabeceras">Tipos de Trámite</label>            
+                <div class="ind-1 col-md-6">
+                    <p class="form-label">26.- Inscripcion o renovación</p>
+                    <ul>
+                        <li>
+                        <div class="form-check col-md-12">
+                            <input class="form-check-input" type="checkbox" value="" id="rtnCheck" required>
+                            <label class="form-check-label" for="rtnCheck">RTN</label>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="actEspCheck" required>
+                                <label class="form-check-label" for="actEspCheck">Actividades Especiales</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="rfiCheck" required>
+                                <label class="form-check-label" for="rfiCheck">R.F.I.</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="importadorCheck" required>
+                                <label class="form-check-label" for="importadorCheck">Importador</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="exportadorCheck" required>
+                                <label class="form-check-label" for="exportadorCheck">Exportador</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="prestamosNbanCheck" required>
+                                <label class="form-check-label" for="prestamosNbanCheck">Prestamos no Bancarios</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="productorAlcoholCheck" required>
+                                <label class="form-check-label" for="productorAlcoholCheck">Productor de Alcohol y Licores</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="distribuidorAlcoholCheck" required>
+                                <label class="form-check-label" for="distribuidorAlcoholCheck">Distribuidor de Alcohol y Licores</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="importadorAlcoholCheck" required>
+                                <label class="form-check-label" for="importAlcoholCheck">Importador de Alcohol y Licores</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="cigarrilloCheck" required>
+                                <label class="form-check-label" for="cigarrilloCheck">Productores e Importadores Cigarrillos</label>
+                            </div>
+                        </li>
+                      
+                    </ul>
+                </div>
+                <div class="ind-2 col-md-6">
+                    <p class="form-label">27.- Otros tramites</p>
+                    <ul>
+                        <li>
+                        <div class="form-check col-md-12">
+                            <input class="form-check-input" type="checkbox" value="" id="altaImpuestosCheck" required>
+                            <label class="form-check-label" for="altaImpuestosCheck">Alta de Impuestos</label>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="bajaImpuestosCheck" required>
+                                <label class="form-check-label" for="bajaImpuestosCheck">Baja de Impuestos</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="sucursalCheck" required>
+                                <label class="form-check-label" for="sucursalCheck">Sucursal</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="bajaRtnCheck" required>
+                                <label class="form-check-label" for="BajaRtnCheck">Baja RTN</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="cambioPeriodoFCheck" required>
+                                <label class="form-check-label" for="cambioPeriodoFCheck">Cambio de Periodo Fiscal</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="cambioRepresentanteCheck" required>
+                                <label class="form-check-label" for="cambioRepresentanteCheck">Cambio de Representante Legal</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="cambioDomicilioCheck" required>
+                                <label class="form-check-label" for="cambioDomicilioCheck">Cambio de Domicilio</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="fusionCheck" required>
+                                <label class="form-check-label" for="fusionCheck">Fusion</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="absorcionCheck" required>
+                                <label class="form-check-label" for="absorcionCheck">Absorcion</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check col-md-12">
+                                <input class="form-check-input" type="checkbox" value="" id="rtnDuplicidadCheck" required>
+                                <label class="form-check-label" for="rtnDuplicidadCheck">Enlace RTN por Duplicidad</label>
+                            </div>
+                        </li>
+                      
+                    </ul>
+
+                </div>
+        </form>   
+            
+        <form class="com-individual row g-3">
+            <label class="cabeceras">Comerciante Individual</label>
+                <div class="col-md-5">
+                    <label for="identidad" class="form-label">28.- N° identidad, carné residencia o pasaporte</label>
+                    <input type="text" class="form-control" id="identidad" value="" placeholder="ej. XXXX-XXXX-XXXXX" required>
+                </div> 
+                <div class="col-md-2">
+                    <p class="form-label">29.- Género</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioSexo" id="radioMasculino" checked>
+                        <label class="form-check-label" for="radioMasculino">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioSexo" id="radioFemenino">
+                        <label class="form-check-label" for="radioFemenino">Femenino</label>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <label class="form-label">30.- Fecha de nacimiento</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md-2">
+                    <p class="form-label">31.- Residencia</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioResidencia" id="radioSi" checked>
+                        <label class="form-check-label" for="radioSi">Si</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioResidencia" id="radioNo">
+                        <label class="form-check-label" for="radioNo">No</label>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <label for="bloque" class="form-label">32.- Referencia del Domicilio</label>
+                    <input type="text" class="form-control" id="bloque" value="" placeholder="ej. Col. Las Minitas, Calle San Pedro, Casa N° 135" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="bloque" class="form-label">33.- Comerciante Individual</label>
+                    <input type="text" class="form-control" id="bloque" value="" placeholder="SI" required>
+                </div>
+                
+        </form>
+        
+        <form class="lugar-constitucion row g-3">
+            <label class="cabeceras">Lugar de constitución</label>
+                <div class="col-md-4">
+                    <label class="form-check-label" for="pais">34.- País</label>
+                    <select class="form-select" id="pais" aria-label="Paises">
+                        <option selected>Seleccione</option>
+                        <option value="1">Honduras</option>
+                        <option value="2">Guatemala</option>
+                        <option value="3">El Salvador</option>
+                        <option value="4">Nicaragua</option>
+                        <option value="5">Costa Rica</option>
+                        <option value="6">Panama</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-check-label" for="departamento">35.- Departamento</label>
+                    <select class="form-select" id="departamento" aria-label="Departamentos">
+                        <option selected>Seleccione</option>
+                        <option value="1">Atlantida</option>
+                        <option value="2">Colon</option>
+                        <option value="3">Comayagua</option>
+                        <option value="4">Copán</option>
+                        <option value="5">Cortes</option>
+                        <option value="6">Choluteca</option>
+                        <option value="7">El Paraíso</option>
+                        <option value="8">Francisco Morazán</option>
+                        <option value="9">Gracias a Dios</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-check-label" for="ciudad">36.- Ciudad</label>
+                    <select class="form-select" id="ciudad" aria-label="Ciudades">
+                        <option selected>Seleccione</option>
+                        <option value="1">La Ceiba</option>
+                        <option value="2">Trujillo</option>
+                        <option value="3">Comayagua</option>
+                        <option value="4">Copán</option>
+                        <option value="5">San Pedro Sula</option>
+                        <option value="6">Choluteca</option>
+                        <option value="7">Yuscarán</option>
+                        <option value="8">Distrito Central</option>
+                        <option value="9">Puerto Lempira</option>
+                    </select>
+                </div>
+ 
+        </form>
+        <form class="registro-publico row g-3">
+            <label class="cabeceras">Registro de Instrumento Público</label>
+            <div class="col-md-3">
+                <label for="instrumento" class="form-label">37.- Tipo de Instrumento</label>
+                <input type="text" class="form-control" id="instrumento" value="" placeholder="ej. Escritura comerciante indi." required>
+            </div>
+            <div class="col-md-3">
+                <label for="numInstrumento" class="form-label">38.- Número de Instrumento</label>
+                <input type="text" class="form-control" id="numInstrumento" value="" placeholder="ej. XX-XXXX" required>
+            </div>
+            <div class="col-md-3">
+                <label for="fechaConstitucion" class="form-label">39.- Fecha de Constitucion</label>
+                <input type="text" class="form-control" id="fechaConstitucion" value="" placeholder="ej. xx / ene / XXXX" required>
+            </div>
+            <div class="col-md-3">
+                <label for="tipoEmpresa" class="form-label">40.- Tipo de Empresa</label>
+                <input type="text" class="form-control" id="tipoEmpresa" value="" placeholder="ej. Distribuidora" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="capitalSocial" class="form-label">41.- Capital Social</label>
+                <input type="text" class="form-control" id="capitalSocial" value="" placeholder="ej. 000,000.00" required>
+            </div>
+            <div class="col-md-3">
+                <label for="numMatricula" class="form-label">42.- N° de Matrícula</label>
+                <input type="text" class="form-control" id="numMatricula" value="" placeholder="ej. XXX-XXXX" required>
+            </div>
+            <div class="col-md-3">
+                <label for="registroMercantil" class="form-label">43.- N° de Registro Mercantil</label>
+                <input type="text" class="form-control" id="registroMercantil" value="" placeholder="ej. XXX-XX-XXXX" required>
+            </div>
+            <div class="col-md-3">
+                <label for="fechaRegistro" class="form-label">44.- Tipo de Empresa</label>
+                <input type="text" class="form-control" id="fechaRegistro" value="" placeholder="ej. xx / jul / XXXX" required>
+            </div>
+
+            <hr size=5>
+
+            <div class="col-md-4">
+                <label for="nombreComercial" class="form-label">45.- Nombre Comercial</label>
+                <input type="text" class="form-control" id="nombreComercial" value="" placeholder="ej. Venta de Galletas" required>
+            </div>
+            <div class="col-md-3">
+                <p class="form-label">46.- Categoria Empresa</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioCategoriaEmpresa" id="radioSi" checked>
+                    <label class="form-check-label" for="radioSi">Si</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioCategoriaEmpresa" id="radioNo">
+                    <label class="form-check-label" for="radioNo">No</label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="estableAnexos" class="form-label">47.- Establecimientos Anexos</label>
+                <input type="text" class="form-control" id="estableAnexos" value="" placeholder="" required>
+            </div>
+            <div class="col-md-2">
+                <p class="form-label">48.- Comisionista</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioComisionista" id="radioSi" checked>
+                    <label class="form-check-label" for="radioSi">Si</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioComisionista" id="radioNo">
+                    <label class="form-check-label" for="radioNo">No</label>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <label for="actPrincipal" class="form-label">49.- Actividad Principal</label>
+                <input type="text" class="form-control" id="actPrincipal" value="" placeholder="ej. Distribución" required>
+            </div>
+            <div class="col-md-4">
+                <label for="actSecundaria" class="form-label">50.- Actividad Secundaria</label>
+                <input type="text" class="form-control" id="actSecundaria" value="" placeholder="ej. Almacén" required>
+            </div>
+            <div class="col-md-4">
+                <label for="sectorEstrategico" class="form-label">51.- Sector Estratégico</label>
+                <input type="text" class="form-control" id="sectorEstrategico" value="" placeholder="ej. Maquila" required>
+            </div>
+
+            <hr size=5>
+            
+            <div class="col-md-3">
+                <label for="segundoApellido" class="form-label">52.- Nombre del Notario</label>
+                <input type="text" class="form-control" id="segundoApellido" value="" placeholder="ej. Ricardo José Perez" required>
+            </div>
+            <div class="col-md-3">
+                <label for="primerApellido" class="form-label">53.- RTN del Notario</label>
+                <input type="text" class="form-control" id="primerApellido" value="" placeholder="xxxx-xxxx" required>
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">54.- Fecha Inicio Actividades</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-3">
+                <label class="form-label">55.- Fecha Cese Actividades</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+        </form>
+            
+
+        <form class="periodo-especial row g-3">
+            <label class="cabeceras">Período Especial</label>
+
+            <div class="col-md-6">
+                <label for="tipoPlazo" class="form-label">56.- Tipo de Plazo</label>
+                <input type="text" class="form-control" id="tipoPlazo" value="" placeholder="ej. 1 mes" required>
+            </div>
+            <div class="col-md-6">
+                <label for="plazoAdicional" class="form-label">57.- Tiempo de Plazo Adicional</label>
+                <input type="text" class="form-control" id="plazoAdicional" value="" placeholder="ej. 6 meses" required>
+            </div>
+            
+            <div class="col-md-4">
+                <label class="form-label">58.- Cierre del Ejercicio</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">59.- Fecha Desde</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">60.- Fecha Hasta</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+        </form>
+
+        <form class="enlace-fusion row g-3">
+            <label class="cabeceras">Enlace, Fusión o Absorción</label>
+            <p class="form-label">Registro de Alta</p>
+            <div class="col-md-9">
+                <label for="altaRazonSocial" class="form-label">61.- Nombre o Razón Social</label>
+                <input type="text" class="form-control" id="altaRazonSocial" value="" placeholder="ej. Tela Cosmeticos" required>
+            </div>
+            <div class="col-md-3">
+                <label for="rtnAlta" class="form-label">62.- RTN</label>
+                <input type="text" class="form-control" id="rtnAlta" value="" placeholder="xxxx-xxxx" required>
+            </div>
+            <p class="form-label">Registro a dar de baja</p>
+            <div class="col-md-9">
+                <label for="altaRazonSocial" class="form-label">63.- Nombre o Razón Social</label>
+                <input type="text" class="form-control" id="altaRazonSocial" value="" placeholder="ej. Tela Cosmeticos" required>
+            </div>
+            <div class="col-md-3">
+                <label for="rtnBaja" class="form-label">64.- RTN</label>
+                <input type="text" class="form-control" id="rtnBaja" value="" placeholder="xxxx-xxxx" required>
+            </div>
+        </form>
+
+        <form class="obligaciones-tributarias row g-3">
+            <label class="cabeceras">Obligaciones Tributarias</label>
+
+            <div class="col-md-2">
+                <label for="codigo1A" class="form-label">65.- Código</label>
+                <input type="text" class="form-control" id="codigo1A" value="" placeholder="ej. 522" required>
+            </div>
+            <div class="col-md-6">
+                <label for="descripImpuesto1A" class="form-label">66.- Descripción del Impuesto</label>
+                <input type="text" class="form-control" id="descripImpuesto1A" value="" placeholder="" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">67.- Fecha Alta</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">68.- Fecha Baja</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label for="codigo1B" class="form-label">69.- Código</label>
+                <input type="text" class="form-control" id="codigo1B" value="" placeholder="ej. 522" required>
+            </div>
+            <div class="col-md-6">
+                <label for="descripImpuesto1B" class="form-label">70.- Descripción del Impuesto</label>
+                <input type="text" class="form-control" id="descripImpuesto1B" value="" placeholder="" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">71.- Fecha Desde</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">72.- Fecha Hasta</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+
+            <hr size=5>
+
+            <div class="col-md-2">
+                <label for="codigo2A" class="form-label">73.- Código</label>
+                <input type="text" class="form-control" id="codigo2A" value="" placeholder="ej. 522" required>
+            </div>
+            <div class="col-md-6">
+                <label for="descripImpuesto2A" class="form-label">74.- Descripción del Impuesto</label>
+                <input type="text" class="form-control" id="descripImpuesto2A" value="" placeholder="" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">75.- Fecha Alta</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">76.- Fecha Baja</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label for="codigo2B" class="form-label">77.- Código</label>
+                <input type="text" class="form-control" id="codigo2B" value="" placeholder="ej. 522" required>
+            </div>
+            <div class="col-md-6">
+                <label for="descripImpuesto2B" class="form-label">78.- Descripción del Impuesto</label>
+                <input type="text" class="form-control" id="descripImpuesto2B" value="" placeholder="" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">79.- Fecha Desde</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">80.- Fecha Hasta</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>
+                
+            </div>
+
+        </form>
+
+        <form class="cierre row g-3">
+            <label class="cabeceras">cierre</label>
+            <div class="mb-3 col-4">
+                <label for="firma" class="form-label">81.- Espacio para firma</label>
+                <textarea class="form-control" id="firma" rows="3" placeholder="Firma Obligado Tributario o Representante Legal"></textarea>
+            </div>
+            <div class="col-4">
+                <div class="col-md-12">
+                    <label for="lugarFirma" class="form-label">82.- Lugar y Fecha</label>
+                    <input type="text" class="form-control" id="lugarFirma" value="" placeholder="ej. Distrito Central" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="fechaFirma" class="form-label"></label>
+                    <input type="text" class="form-control" id="fechaFirma" value="" placeholder="ej. xx / dic / xxxx" required>
+                </div>
+
+            </div>
+            <div class="mb-3 col-4">
+                <label for="firma" class="form-label">83.- Uso SAR</label>
+                <textarea class="form-control" id="firma" rows="3" placeholder="Firma Servidor Público"></textarea>
+            </div>
+            
+
+        </form>
+        <form class=" botonera row g-3">
+            <div class="col-6 text-center">
+                <button class="btn-primary">Enviar</button>
+            </div>
+            <div class="col-6 text-center">
+                <button class="btn btn-secondary" type="submit">Cerrar</button>
+            </div>
+        </form>
+        <footer class="base-pag col-12 text-center my-auto"> 
+            <p>Derechos reservados 2021</p>  
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+<!--Datepicker-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+            $('#datepicker').datepicker();
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+</script>
+    
+</body>
+</html>

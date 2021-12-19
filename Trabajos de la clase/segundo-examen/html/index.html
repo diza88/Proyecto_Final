@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Datepicker CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+    <title>Pagina Alcaldia MDC </title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="container-md">
+        <div class="logo col-12 text-center">
+            <img src="../img/Logo_AMDC.jpg" alt="Logo AMDC">
+        </div>
+        <form class="datos-personales row g-3">
+            <label class="area text-center">Solicitud de Empleo</label>
+            <p>
+                Proporcione los datos que se solicitan a continuacion, de la manera mas cuidadosa y exacta posible.
+                No dude en añadir hojas en caso de ser necesario. El presente documento no constituye un contrato ni una oferta de trabajo.
+                Esta solicitud debe de venir acompañada de certificados de estudios, fotgarfias recientes tamaño pasaporte, 
+                cartas de recomedacion, certificaciones de trabajo anteriores y acualquier otro documento de interes.
+
+            </p>
+            <label class="titulo">Datos Personales</label>
+            <div class="col-md-8">
+                <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombreCompleto" value="" placeholder="ej. Ramon de Las Casas Váldez" required>
+            </div>
+            <div class="col-md-4">
+                <label for="cedula" class="form-label">N° Cédula</label>
+                <input type="text" class="form-control" id="cedula" value="" placeholder="ej. XXXX-XXXX-XXXXX" required>
+            </div>
+            <div class="col-md-12">
+                <label for="direccion" class="form-label">Dirección Exacta</label>
+                <input type="text" class="form-control" id="direccion" value="" placeholder="ej. Barrio, El Centro, Calle Ampolas, Casa 145" required>
+            </div>
+
+            <div class="col-md-4">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="telefono" value="" placeholder="ej. +504-XXXX-XXXX" required>
+            </div>
+            <div class="col-md-4">
+                <label for="fax" class="form-label">Fax</label>
+                <input type="text" class="form-control" id="fax" value="" placeholder="ej. +504-XXXX-XXXX" required>
+            </div>
+            <div class="col-md-4">
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" value="" placeholder="ej. alcaldia.amdc@amdc.hn" required>
+            </div>
+            <div class="col-md-2">
+                <label class="form-label">Fecha de Nacimiento</label>
+                   <div class="input-group date">
+                       <input type="text" class="form-control" id="datepicker">
+                       <span class="input-group-append">
+                           <span class="input-group-text bg-white d-block">
+                               <i class="fa fa-calendar"></i>
+                           </span>
+                       </span>
+                </div>  
+            </div>
+            <div class="col-md-7">
+                <label for="lugarNacimiento" class="form-label">Lugar de Nacimiento</label>
+                <input type="text" class="form-control" id="lugarNacimiento" value="" placeholder="ej. Distrito Central, Francisco Morazán" required>
+            </div>
+            <div class="col-md-3">
+                <label for="estadoCivil" class="form-label">Estado Civil</label>
+                <input type="text" class="form-control" id="estadoCivil" value="" placeholder="ej. Soltero" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="nomPadre" class="form-label">Nombre del Padre</label>
+                <input type="text" class="form-control" id="nomPadre" value="" placeholder="ej. José Carlos Asturias" required>
+            </div>
+            <div class="col-md-6">
+                <label for="nomMadre" class="form-label">Nombre de la Madre</label>
+                <input type="text" class="form-control" id="nomMadre" value="" placeholder="ej. Karla María Cardenas" required>
+            </div>
+            <div class="col-md-9">
+                <label for="nomConyuge" class="form-label">Nombre del / la Conyuge</label>
+                <input type="text" class="form-control" id="nomConyuge" value="" placeholder="ej. Sofía de Los Angeles Krismsh" required>
+            </div>
+            <div class="col-md-3">
+                <label for="cantHijos" class="form-label">Cantidad de Hijos</label>
+                <input type="text" class="form-control" id="cantHijos" value="" placeholder="ej. 03" required>
+            </div>
+            <div class="col-md-4">
+                <label for="depentientes" class="form-label">N° de Dependientes</label>
+                <input type="text" class="form-control" id="depentientes" value="" placeholder="ej. 05" required>
+            </div>
+            <div class="col-md-8">
+                <label for="parentesco" class="form-label">Parentesco</label>
+                <input type="text" class="form-control" id="parentesco" value="" placeholder="ej. Hermano" required>
+            </div>
+            <div class="col-md-12">
+                <label for="profesion" class="form-label">Profesión u Oficio</label>
+                <input type="text" class="form-control" id="profesion" value="" placeholder="ej. Carpintero" required>
+            </div>
+        </form>
+
+        <hr size="5">
+
+        <form class="otros-datos row g-3">
+            <label class="titulo">Otros Datos</label>
+            <div class="col-md-6">
+                <label for="puestoSolicitado" class="form-label">Puesto Solicitado</label>
+                <input type="text" class="form-control" id="puestoSolicitado" value="" placeholder="ej. " required>
+            </div>
+            <div class="col-md-6">
+                <label for="fechaDisponible" class="form-label">Fecha Disponible</label>
+                <input type="text" class="form-control" id="fechaDisponible" value="" placeholder="ej. XX/ene/XXXX" required>
+            </div>
+            <div class="col-md-8">
+                <label for="salario" class="form-label">¿Qué nivel de compensacion (aproximado) mensual considera Usted Apropiada?</label>
+                <input type="text" class="form-control" id="salario" value="" placeholder="ej. 15,000.00" required>
+            </div>
+            <div class="col-md-4">
+                <label for="licencia" class="form-label">Si posee licencia de conducir anote el tipo</label>
+                <input type="text" class="form-control" id="licencia" value="" placeholder="ej. Liviana" required>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <p class="form-label">¿Ha padecido algun impedimento fisico?</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioComisionista" id="radioSi" checked>
+                        <label class="form-check-label" for="radioSi">Si</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioComisionista" id="radioNo">
+                        <label class="form-check-label" for="radioNo">No</label>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <label for="impedimento" class="form-label">¿Cual ha Sido?</label>
+                    <input type="text" class="form-control" id="impedimento" value="" placeholder="ej. Enfermedad Cardíaca" required>
+                </div>
+            </div>
+            
+
+        </form>
+
+        <hr size="5">
+
+        <form class="estudios row g-3">
+            <label class="titulo">Estudios</label>
+            <div class="col-12 row g-3">
+                <label class="area">Primaria</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+            <div class="col-12 row g-3">
+                <label class="area">Secundaria</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+            <div class="col-12 row g-3">
+                <label class="area">Universitaria</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+            <div class="col-12 row g-3">
+                <label class="area">Técnica</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+            <div class="col-12 row g-3">
+                <label class="area">Comercial</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+            <div class="col-12 row g-3">
+                <label class="area">Otras</label>
+                <div class="col-md-4">
+                    <label for="instituto" class="form-label">Institucion</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. Escuela Americana" required>
+                </div>
+                <div class="col-md-1">
+                    <label for="instituto" class="form-label">Años</label>
+                    <input type="text" class="form-control" id="instituto" value="" placeholder="ej. 06" required>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Inicio</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">Fecha de Termino</label>
+                       <div class="input-group date">
+                           <input type="text" class="form-control" id="datepicker">
+                           <span class="input-group-append">
+                               <span class="input-group-text bg-white d-block">
+                                   <i class="fa fa-calendar"></i>
+                               </span>
+                           </span>
+                    </div>  
+                </div>
+                <div class="col-md-3">
+                    <label for="titObtenido" class="form-label">Titulo Obtenido</label>
+                    <input type="text" class="form-control" id="titObtenido" value="" placeholder="ej. Bachiller Técnico" required>
+                </div>
+            </div>
+
+
+        </form>
+
+        <hr size="5">
+        <p>
+            Para cursos, talleres u otros, adicione documentos
+        </p>
+        <div class="row g-3">
+            <div class="col-md-2">
+                <p class="form-label">Estudia actualmente</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioComisionista" id="radioSi" checked>
+                    <label class="form-check-label" for="radioSi">Si</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="radioComisionista" id="radioNo">
+                    <label class="form-check-label" for="radioNo">No</label>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <label for="estudioActual" class="form-label">Si es afirmativo, indique</label>
+                <input type="text" class="form-control" id="estudioActual" value="" placeholder="ej. Que estudia actualmente" required>
+            </div>
+        </div>
+        <hr size="5">
+
+
+        <form class=" botonera row g-3">
+            <div class="col-6 text-center">
+                <button class="btn-primary">Enviar</button>
+            </div>
+            <div class="col-6 text-center">
+                <button class="btn btn-secondary" type="submit">Cerrar</button>
+            </div>
+        </form>
+        <footer class="base-pag col-12 text-center my-auto"> 
+            <p>Derechos reservados 2021</p>  
+        </footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+<!--Datepicker-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+            $('#datepicker').datepicker();
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+</script>
+    
+</body>
+</html>
